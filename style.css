@@ -1,0 +1,365 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border: border-box;
+    cursor: pointer;
+    font-weight:lighter;
+}
+.navbar{
+    height: 60px;
+    background-color:white;
+    color: #353543;
+    display: flex;
+   align-items: center;
+    justify-content: space-evenly;
+}
+/* box 1 */
+.nav-logo{
+    height: 50px;
+    width: 100px;
+    
+}
+.logo{
+    background-image: url("lolgo1.jpg");
+    height: 60px; 
+    width: 100px;
+    font-weight: book;
+    margin-bottom: 200px;
+    background-size:cover;
+    
+    
+    
+}
+
+.border{
+    border:1.2px solid transparent
+}
+.border:hover{
+    border: 1.2px solid white;
+}
+/* box 2 */
+.nav-search{
+    display: flex;
+    /* justify-content: space-evenly;
+    background-color:white; */
+    width: 540px;
+    height: 50px;
+    border: 2px solid #353543;
+    border-radius: 2px;
+}
+
+
+.search-input{
+   
+    font-size:x-large;
+    border: none;
+    outline: none;
+    flex-grow: 1;
+}
+.search-icon{
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem; 
+    margin-right: 10px;
+}
+/* box 3 */
+span{
+    font-size: 1.7rem;
+   
+}
+.nav-sec{
+    font-size: 1.7rem;
+    margin-right: 15px;
+} 
+.nav-sign-in i{
+    font-size: 60px;
+    margin-left: 15px;
+}
+
+
+.nav-Newsroom{
+    font-size:30px;
+    font-weight: lighter;
+}
+/* box 4 */
+.nav-profile{
+    font-size: 30px;
+}
+.nav-profile i{
+    font-size: 40px;
+    justify-content: center;
+    display: flex;
+}
+/* box 5 */
+.nav-cart i{
+    font-size: 50px;
+    
+}
+.nav-cart{
+    font-size:30px;
+}
+.nav-panel {
+    display: flex;
+    flex-direction: row; /* Makes the list vertical */
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #353543;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-panel p {
+    padding: 10px 15px;
+    margin: 5px 0;
+    background: #f5f5f5;
+    border-radius: 5px;
+    cursor: pointer;
+    transition:0.3s ease;
+}
+
+.nav-panel p:hover {
+    background: #ddd;
+}
+/* hero section */
+.hero1-section{
+    background-image: url("hero1.webp");
+    height: 336px;
+    width: 611;
+    margin-top: 10px;
+}
+.nav-Categories{
+    font-size: 100px;
+    line-height: 44px;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* content section */
+.content-section{
+    display:-webkit-inline-flex;
+    gap: 10px;
+    margin-left: 80px;
+    background-color: #ddd;
+    margin-top: 20px;
+    height: 650px;
+    width: 150%;
+    font-size: 20px;
+    font-weight: bolder; 
+    color:darkred;
+    
+}
+
+/* box1 */
+.box1 {
+    
+    text-align: center; 
+    background-image: url("j6x6s_400.webp");
+    background-size:cover;
+    width: 45%;
+}
+
+.product-image {
+   display: block;
+    margin: 0 auto; 
+}
+.product-description {
+    font-size: 10px;
+    margin-top: 200px;
+    color:black;
+}
+
+.price {
+    font-size: 12px;
+    color:black;
+}
+
+.rating,
+.ratings-reviews,
+.delivery {
+    font-size: 10px;
+    color:black;
+    margin-top: 5px;
+}
+
+
+
+
+
+/* .box2 */
+.box2 {
+    text-align: center; 
+    background-image: url("mczok_400.webp");
+    background-size:cover;
+    width: 45%;
+}
+
+.product-image {
+   
+    display: block;
+    margin: 0 auto; 
+}
+
+.product-description {
+    font-size: 16px;
+    margin-top: 200px;
+    color: black;
+}
+
+.price {
+    font-size: 18px;
+    color:black;
+}
+
+.rating,
+.ratings-reviews,
+.delivery {
+    font-size: 14px;
+    color:black;
+    margin-top: 5px;
+}
+
+/* box3 */
+.box3 {
+    text-align: center; 
+    background-image: url("r1zha_400.webp");
+    background-size:cover;
+    width: 45%;
+}
+
+.product-image {
+    width: 100%; 
+    max-width: 300px; 
+    height: 300px; 
+    display: block;
+    margin: 0 auto; 
+}
+
+.product-description {
+    font-size: 16px;
+    margin-top: 500px;
+    color:black;
+}
+
+.price {
+    font-size: 18px;
+    color:black;
+}
+
+.rating,
+.ratings-reviews,
+.delivery {
+    font-size: 14px;
+    color:black;
+    margin-top: 5px;
+}
+
+/* box4 */
+.box4 {
+    text-align: center; 
+    background-image: url("ftiww_400.webp");
+    background-size:cover;
+    width: 45%;
+}
+
+.product-image {
+    width: 100%; 
+    max-width: 300px; 
+    height: 300px; 
+    display: block;
+    margin: 0 auto; 
+}
+
+.product-description {
+    font-size: 16px;
+    margin-top: 500px;
+    color: black;
+}
+
+.price {
+    font-size: 18px;
+    color:black;
+}
+
+.rating,
+.ratings-reviews,
+.delivery {
+    font-size: 14px;
+    color:black;
+    margin-top: 5px;
+}
+
+
+/* box5 */
+.box5 {
+    text-align: center; 
+    background-image: url("capmi_400.webp");
+    background-size: cover;
+    width: 45%;
+}
+
+.product-image {
+    width: 100%; 
+    max-width: 300px; 
+    height: 300px; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+.product-description {
+    font-size: 16px;
+    margin-top: 500px;
+    color:black;
+}
+
+.price {
+    font-size: 18px;
+    color:black;
+}
+
+.rating,
+.ratings-reviews,
+.delivery {
+    font-size: 14px;
+    color:black;
+    margin-top: 5px;
+}
+
+/* box6 */
+.box6 {
+    text-align: center; 
+    background-image: url("yzcii_400.webp");
+    background-size:cover;
+    width: 45%;
+}
+
+.product-image {
+    width: 100%; 
+    max-width: 300px; 
+    height: 300; 
+    display: block;
+    margin: 0 auto; 
+}
+
+.product-description {
+    
+    font-size: 36px;
+    margin-top: 400px;
+    color: black;
+}
+
+.price {
+    
+    font-size: 36px;
+    color:black;
+}
+
+.rating,
+.ratings-reviews,
+.delivery {
+
+    font-size: 36px;
+    color:black;
+    margin-top: 5px;
+    
+}
